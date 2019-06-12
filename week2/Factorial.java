@@ -4,10 +4,10 @@ public class Factorial {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int sum = 1;
+        int product = 1; // da nume sugestive variabilelor
         for (int i = 1; i <= n; i++) {
-            sum = sum * i;
+            product = product * i;
         }
-        System.out.println(sum);
+        System.out.println(product);
     }
 }

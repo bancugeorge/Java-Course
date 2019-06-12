@@ -13,20 +13,15 @@ public class Calculator {
 
         if (operation.equals("+")) {
             System.out.println(n1 + " + " + n2 + " = " + (n1 + n2));
-        }
-        else if (operation.equals("-")) {
+        } else if (operation.equals("-")) {
             System.out.println(n1 + " - " + n2 + " = " + (n1 - n2));
-        }
-        else if (operation.equals("*")) {
+        } else if (operation.equals("*")) {
             System.out.println(n1 + " * " + n2 + " = " + (n1 * n2));
-        }
-        else if (operation.equals("/")) {
+        } else if (operation.equals("/")) {
             System.out.println(n1 + " / " + n2 + " = " + (n1 / n2));
-        }
-        else System.out.println("Bad operation!");
+        } else System.out.println("Bad operation!");
 
     }
 
 
-
-    }
+}
